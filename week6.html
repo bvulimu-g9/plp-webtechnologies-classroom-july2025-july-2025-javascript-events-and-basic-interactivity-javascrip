@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Pages with JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive Web Assignment</h1>
+
+  <!-- 🎉 Part 1: Event Handling -->
+  <button id="showMsgBtn">Click Me!</button>
+  <p id="message" style="display:none;">🎉 You clicked the button!</p>
+
+  <!-- 🎮 Part 2: Interactive Elements -->
+  <section>
+    <h2>Light/Dark Mode Toggle</h2>
+    <button id="themeToggle">Switch Theme</button>
+  </section>
+
+  <section>
+    <h2>Counter Game</h2>
+    <button id="increaseBtn">+ Increase</button>
+    <button id="decreaseBtn">- Decrease</button>
+    <p id="counterValue">Counter: 0</p>
+  </section>
+
+  <!-- 📋✅ Part 3: Form Validation -->
+  <section>
+    <h2>Signup Form</h2>
+    <form id="signupForm">
+      <label>Name: <input type="text" id="name"></label><br>
+      <label>Email: <input type="text" id="email"></label><br>
+      <label>Password: <input type="password" id="password"></label><br>
+      <button type="submit">Register</button>
+    </form>
+    <div id="formFeedback"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
