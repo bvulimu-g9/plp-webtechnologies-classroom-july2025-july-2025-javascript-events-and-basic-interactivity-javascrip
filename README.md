@@ -54,5 +54,5 @@ By completing this project, you’ll demonstrate:
 
 ---
 
-👨‍💻 **Author**: *Your Name*  
-📅 **Date**: *September 2025*  
+👨‍💻 **Author**: *Brian Vulimu*  
+  
