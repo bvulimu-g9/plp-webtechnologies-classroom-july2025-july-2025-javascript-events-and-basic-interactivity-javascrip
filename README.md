@@ -1,58 +1,58 @@
-# 🧠 Assignment: Interactive Web Pages with JavaScript
-
-Welcome to the exciting world of interactivity! This assignment is all about **making your web pages feel alive**. You’ll learn how to respond to user actions, build engaging components, and validate form input—without reloading the page. This is where JavaScript gets fun, practical, and powerful. 🚀
 
 ---
 
-## 🎉 Part 1: JavaScript Event Handling and Interactive Elements
+## 🎉 Part 1: JavaScript Event Handling
+- Set up **event listeners** to respond to user actions:
+  - Button click shows a hidden message.  
+  - Mouseover and mouseout change button appearance.  
 
-Let’s start with the basics of **event handling**. You'll set up JavaScript to listen for user actions like clicks, mouseovers, keyboard input, and more—and respond to them in meaningful ways.
-
-**Goal:** Use event listeners to react to user behavior and trigger changes on the page (e.g., showing messages, toggling classes, hiding/showing content).
-
----
-
-## 🎮 Part 2: Building Interactive Elements
-
-Now it’s time to apply what you’ve learned by creating your own mini interactive features. You can build things like:
-
-* A light/dark mode toggle
-* A counter or button game
-* A collapsible FAQ section
-* A simple dropdown menu
-* A tabbed interface
-
-**Goal:** Use DOM manipulation + events to make the page dynamic and engaging. Be creative!
+**Goal:** React to user behavior dynamically.
 
 ---
 
-## 📋✅ Part 3: Form Validation with JavaScript
+## 🎮 Part 2: Interactive Elements
+Two custom interactive features are included:  
 
-Forms are essential to the web—and validating them properly is key to good user experience. You’ll build a form with multiple input fields (name, email, password, etc.) and write JavaScript to validate each field when the user submits or types.
+1. **Light/Dark Mode Toggle**  
+   - Switches between light and dark themes by toggling a CSS class.  
 
-**Goal:** Prevent incorrect form submissions by writing custom validation logic using conditions and regular expressions. Show user-friendly error messages and success feedback.
+2. **Counter Game**  
+   - Increase or decrease a number using buttons.  
+   - Demonstrates DOM updates and event handling.  
 
----
-
-## Deliverables
-
-* `index.html`: Your structured web page with at least one form and several interactive sections
-* `script.js`: Your JavaScript file with:
-
-  * Event handling for buttons, inputs, or links
-  * At least 2 interactive features created from scratch
-  * A fully functioning custom form validation (no HTML5-only validation)
-* `style.css` (optional but encouraged): To style your interactive elements
-
-Each section of your JavaScript should be commented to explain its purpose.
+**Goal:** Apply DOM manipulation + events to build engaging features.
 
 ---
 
-## Outcome
+## 📋✅ Part 3: Form Validation
+- A custom signup form with fields: **Name, Email, Password**.  
+- JavaScript validation rules:  
+  - Name must be at least **2 characters**.  
+  - Email must match a **regex pattern**.  
+  - Password must be at least **6 characters**.  
+- Displays user-friendly **error messages** or **success feedback** without refreshing the page.  
 
-* Use of event listeners and appropriate event types
-* Creativity and functionality of interactive elements
-* Form validation accuracy and helpfulness of feedback
-* Clear, modular, and well-commented JavaScript code
-* A clean and functional user experience
+**Goal:** Ensure correct input and improve user experience.
 
+---
+
+## 🚀 How to Run
+1. Download or clone this project folder.  
+2. Open the folder in **VS Code** (or any editor).  
+3. Open `index.html` in your browser.  
+4. Try clicking buttons, switching themes, and submitting the form.  
+
+---
+
+## ✅ Outcomes
+By completing this project, you’ll demonstrate:  
+- Event handling for **clicks, hovers, and form submissions**.  
+- Building creative **interactive elements** with JavaScript.  
+- Writing **custom form validation** using conditions and regular expressions.  
+- Clean, modular, and well-commented code.  
+- Delivering a **functional and interactive user experience**.  
+
+---
+
+👨‍💻 **Author**: *Your Name*  
+📅 **Date**: *September 2025*  
